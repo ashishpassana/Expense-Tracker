@@ -1,0 +1,76 @@
+body {
+  background: #f7f9fc;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.card {
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* DARK MODE STYLES */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .container {
+  background-color: transparent;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: white;
+  border-color: #333;
+}
+
+.dark-mode .table {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.dark-mode .table th,
+.dark-mode .table td {
+  background-color: #1e1e1e;
+  color: white;
+  border-color: #444;
+}
+
+.dark-mode .form-control {
+  background-color: #2a2a2a;
+  color: white;
+  border-color: #555;
+}
+
+.dark-mode .form-control:focus {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.dark-mode .btn-secondary {
+  background-color: #6c757d;
+}
+
+.dark-mode .btn-light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .row > div {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+
